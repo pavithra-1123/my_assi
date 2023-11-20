@@ -1,7 +1,7 @@
 import { ChartNavPage } from "./Chart_NavPage";
 import { My_Chartpage } from "./Chart_line";
 import { ChartSiderBar } from "./Chart_sidebar";
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, HashRouter, Route, Routes} from 'react-router-dom'
 
 
 export function App() {
@@ -16,13 +16,13 @@ export function App() {
       
       <ChartSiderBar/>
       </div>
-      <div class="content">
+      <div class="content ">
       <ChartNavPage/>
-      <BrowserRouter>
+      <HashRouter >
       <Routes>
         <Route path='view' exact element={<My_Chartpage/>} />
       </Routes>
-      </BrowserRouter>
+      </HashRouter>
       </div>
    </div>
       
