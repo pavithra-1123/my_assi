@@ -1,9 +1,9 @@
-import './App.css';
+
 
 export function App() {
   return (
     <>
-<p>react js</p>
+    <p>react js</p>
     </>
   );
 }
