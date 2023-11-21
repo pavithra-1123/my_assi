@@ -211,12 +211,8 @@ export const My_Chartpage = () => {
               />
             </Box>
           </Grid>
-          <Grid
-            item
-            md={6}
-            xs={12}
-            sm={12}
-            sx={{ display: "flex", height: "415px", width: "100%" }}
+          <Grid item md={6} xs={12} sm={12}
+          sx={{ display: "flex", height: "415px", width: "100%" }}
           >
             <Box sx={{ background: "#fff" }}>
               <GraphBox

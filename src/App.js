@@ -18,12 +18,12 @@ export function App() {
       </div>
       <div class="content">
       <ChartNavPage/>
-      <My_Chartpage/>
-      {/* <BrowserRouter >
+      {/* <My_Chartpage/> */}
+      <BrowserRouter >
       <Routes>
         <Route path='view' exact element={<My_Chartpage/>} />
       </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       </div>
    </div>
       

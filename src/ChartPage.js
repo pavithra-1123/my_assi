@@ -23,23 +23,12 @@ export const ChartSiderBar=()=>
             <ul className='ulside'>
             
                 <li className='ms-3 input-group' ><DashboardIcon className='me-3'></DashboardIcon>
-                {/* <Nav.Link href='/view' className=''>Dashboard</Nav.Link> */}
-                Dashboard</li>
-                <li className='ms-3 input-group'><AccountBalanceWalletIcon className='me-3'></AccountBalanceWalletIcon>
-                {/* <Nav.Link href='/view' className=''>Accounts</Nav.Link> */}
-                Accounts</li>
-                <li className='ms-3 input-group'><AttachMoneyIcon className='me-3'></AttachMoneyIcon>
-                {/* <Nav.Link href='/view' className=''>Payroll</Nav.Link> */}
-                Payroll</li>
-                <li className='ms-3 input-group'><DescriptionIcon className='me-3'></DescriptionIcon>
-                {/* <Nav.Link href='/view' className=''> Reports</Nav.Link>  */}
-                Reports</li>
-                <li className='ms-3 input-group'><PersonIcon className='me-3'></PersonIcon> 
-                {/* <Nav.Link href='/view' className=''> Advisor</Nav.Link> */}
-                Advisor</li>
-                <li className='ms-3 input-group'><ContactsIcon className='me-3'></ContactsIcon> 
-                {/* <Nav.Link href='/view' className=''> Contacts</Nav.Link> */}
-                Contacts </li>
+                <Nav.Link href='/view' className=''>Dashboard</Nav.Link></li>
+                <li className='ms-3 input-group'><AccountBalanceWalletIcon className='me-3'></AccountBalanceWalletIcon><Nav.Link href='/view' className=''>Accounts</Nav.Link></li>
+                <li className='ms-3 input-group'><AttachMoneyIcon className='me-3'></AttachMoneyIcon><Nav.Link href='/view' className=''>Payroll</Nav.Link></li>
+                <li className='ms-3 input-group'><DescriptionIcon className='me-3'></DescriptionIcon><Nav.Link href='/view' className=''> Reports</Nav.Link> </li>
+                <li className='ms-3 input-group'><PersonIcon className='me-3'></PersonIcon> <Nav.Link href='/view' className=''> Advisor</Nav.Link> </li>
+                <li className='ms-3 input-group'><ContactsIcon className='me-3'></ContactsIcon> <Nav.Link href='/view' className=''> Contacts</Nav.Link> </li>
             </ul>
 
            </div>
