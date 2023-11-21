@@ -16,14 +16,15 @@ export function App() {
       
       <ChartSiderBar/>
       </div>
-      <div class="content ">
+      <div class="content">
       <ChartNavPage/>
-      <My_Chartpage/>
-      {/* <BrowserRouter >
+      {/* <My_Chartpage/> */}
+      <BrowserRouter  >
       <Routes>
+        
         <Route path='view' exact element={<My_Chartpage/>} />
       </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       </div>
    </div>
       
