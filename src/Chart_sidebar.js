@@ -22,13 +22,23 @@ export const ChartSiderBar=()=>
            <h2 className=' head'> <img className='assiduuslogo rounded-pill me-2 '/>ASSIDUUS<sup className='fs-6 text-dark'>TM</sup> </h2>
             <ul className='ulside'>
             
-                <li className='ms-3 input-group' ><DashboardIcon className='me-3'></DashboardIcon>
-                <Nav.Link href='/view' className=''>Dashboard</Nav.Link></li>
-                <li className='ms-3 input-group'><AccountBalanceWalletIcon className='me-3'></AccountBalanceWalletIcon><Nav.Link href='/view' className=''>Accounts</Nav.Link></li>
-                <li className='ms-3 input-group'><AttachMoneyIcon className='me-3'></AttachMoneyIcon><Nav.Link href='/view' className=''>Payroll</Nav.Link></li>
-                <li className='ms-3 input-group'><DescriptionIcon className='me-3'></DescriptionIcon><Nav.Link href='/view' className=''> Reports</Nav.Link> </li>
-                <li className='ms-3 input-group'><PersonIcon className='me-3'></PersonIcon> <Nav.Link href='/view' className=''> Advisor</Nav.Link> </li>
-                <li className='ms-3 input-group'><ContactsIcon className='me-3'></ContactsIcon> <Nav.Link href='/view' className=''> Contacts</Nav.Link> </li>
+                <li className='ms-3 input-group' ><DashboardIcon className='me-3'></DashboardIcon> Dashboard
+                {/* <Nav.Link href='/view' className=''>Dashboard</Nav.Link>*/}  </li> 
+                <li className='ms-3 input-group'><AccountBalanceWalletIcon className='me-3'></AccountBalanceWalletIcon>Accounts
+                 {/* <Nav.Link href='/view' className=''>Accounts</Nav.Link> */}
+                  </li>
+                <li className='ms-3 input-group'><AttachMoneyIcon className='me-3'></AttachMoneyIcon> Payroll
+                {/* <Nav.Link href='/view' className=''>Payroll</Nav.Link> */}
+                </li>
+                <li className='ms-3 input-group'><DescriptionIcon className='me-3'></DescriptionIcon> Reports
+                {/* <Nav.Link href='/view' className=''> Reports</Nav.Link>  */}
+                </li>
+                <li className='ms-3 input-group'><PersonIcon className='me-3'></PersonIcon> Advisor
+                {/* <Nav.Link href='/view' className=''> Advisor</Nav.Link> */}
+                 </li>
+                <li className='ms-3 input-group'><ContactsIcon className='me-3'></ContactsIcon>Contacts
+                 {/* <Nav.Link href='/view' className=''> Contacts</Nav.Link> */}
+                  </li>
             </ul>
 
            </div>
