@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my_assi/static/css/main.cdde9e37.css",
-    "main.js": "/my_assi/static/js/main.21a84701.js",
+    "main.js": "/my_assi/static/js/main.b7c620c1.js",
     "static/media/pavi.jpg": "/my_assi/static/media/pavi.c27a82794bf99a145f58.jpg",
     "static/media/Assiduus.jpg": "/my_assi/static/media/Assiduus.415590c0dda2456b3c82.jpg",
     "index.html": "/my_assi/index.html",
     "main.cdde9e37.css.map": "/my_assi/static/css/main.cdde9e37.css.map",
-    "main.21a84701.js.map": "/my_assi/static/js/main.21a84701.js.map"
+    "main.b7c620c1.js.map": "/my_assi/static/js/main.b7c620c1.js.map"
   },
   "entrypoints": [
     "static/css/main.cdde9e37.css",
-    "static/js/main.21a84701.js"
+    "static/js/main.b7c620c1.js"
   ]
 }
